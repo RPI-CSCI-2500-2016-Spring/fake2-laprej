@@ -11,4 +11,4 @@ notifications:
 
 script:
  - mkdir build && cd build
- - make
+ - make ..
