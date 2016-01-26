@@ -10,5 +10,4 @@ notifications:
     on_failure: always
 
 script:
- - mkdir build && cd build
- - make ..
+ - make
