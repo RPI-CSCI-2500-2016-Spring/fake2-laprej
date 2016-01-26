@@ -1,4 +1,4 @@
 all: program
 
 program: main.c
-	clang main.c
+	clang -Wall main.c
