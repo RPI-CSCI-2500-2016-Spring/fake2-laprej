@@ -1,0 +1,14 @@
+language: c
+
+compiler:
+  - clang
+# Change this to your needs
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+
+script:
+ - mkdir build && cd build
+ - make
